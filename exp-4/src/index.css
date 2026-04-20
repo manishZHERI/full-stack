@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: linear-gradient(90deg, #4e73df, #224abe);
+  color: white;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.navbar a:hover {
+  color: #ffd700;
+}
+
+/* CONTAINER */
+.container {
+  padding: 50px 20px;
+  text-align: center;
+  min-height: 80vh;
+}
+
+/* BUTTON */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 5px;
+  background-color: #4e73df;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2e59d9;
+}
+
+/* INPUT */
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+/* TASK LIST */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f8f9fc;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* DARK MODE */
+.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.dark li {
+  background: #1e1e1e;
+}
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.dark footer {
+  background-color: #1e1e1e;
+}
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --bg-gradient: linear-gradient(135deg, #667eea, #764ba2);
+  --text-color: #ffffff;
+  --card-bg: rgba(255, 255, 255, 0.15);
+  --nav-bg: rgba(255, 255, 255, 0.1);
+  --btn-bg: #ffffff;
+  --btn-text: #333;
+}
+
+/* Dark Mode */
+body.dark {
+  --bg-gradient: linear-gradient(135deg, #141e30, #243b55);
+  --text-color: #ffffff;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --nav-bg: rgba(0, 0, 0, 0.4);
+  --btn-bg: #00f2fe;
+  --btn-text: #000;
+}
+
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg-gradient);
+  color: var(--text-color);
+  transition: all 0.5s ease;
+}
+
