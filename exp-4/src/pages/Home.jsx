@@ -10,7 +10,7 @@ function Home() {
       <p>
         This project demonstrates useContext, useReducer, and useMemo.
       </p>
-      <p>Developed by Ritik Kumar Singh (23BIA50035)</p>
+      <p>Developed by Manish yadav </p>
     </div>
   );
 }
